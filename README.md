@@ -10,10 +10,14 @@ This is probably the shortest code to implement realtime emotion monitoring.
 - [OpenCV](https://opencv.org/): An open-source computer vision library used for image and video processing.
 
 ## Usage
-
+### Initial steps:
+- Git clone this repository Run: `git clone https://github.com/manish-9245/Facial-Emotion-Recognition-using-OpenCV-and-Deepface.git`
+- Run: `cd Facial-Emotion-Recognition-using-OpenCV-and-Deepface`
 1. Install the required dependencies:
-   - `pip install deepface`
-   - `pip install opencv-python`
+   - You can use `pip install -r requirements.txt`
+   - Or you can install dependencies individually:
+      - `pip install deepface`
+      - `pip install opencv-python`
 
 2. Download the Haar cascade XML file for face detection:
    - Visit the [OpenCV GitHub repository](https://github.com/opencv/opencv/tree/master/data/haarcascades) and download the `haarcascade_frontalface_default.xml` file.
