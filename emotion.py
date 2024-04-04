@@ -2,9 +2,6 @@ import cv2
 from deepface import DeepFace
 import numpy as np
 
-# Define emotion labels
-emotion_labels = ['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
-
 # Load face cascade classifier
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
@@ -31,7 +28,6 @@ while True:
         
         # Perform emotion analysis on the face ROI
         result = DeepFace.analyze(face_roi, actions=['emotion'], enforce_detection=False)
-        # print(result)
 
         # Determine the dominant emotion
         emotion = result[0]['dominant_emotion']
