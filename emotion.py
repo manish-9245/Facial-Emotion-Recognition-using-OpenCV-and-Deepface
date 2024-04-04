@@ -1,6 +1,5 @@
 import cv2
 from deepface import DeepFace
-import numpy as np
 
 # Load face cascade classifier
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -46,3 +45,4 @@ while True:
 # Release the capture and close all windows
 cap.release()
 cv2.destroyAllWindows()
+
