@@ -17,6 +17,7 @@ This is probably the shortest code to implement realtime emotion monitoring.
    - You can use `pip install -r requirements.txt`
    - Or you can install dependencies individually:
       - `pip install deepface`
+      - `pip install tf_keras`
       - `pip install opencv-python`
 
 2. Download the Haar cascade XML file for face detection:
