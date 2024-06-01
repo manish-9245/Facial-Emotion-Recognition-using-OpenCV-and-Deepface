@@ -58,5 +58,7 @@ This is probably the shortest code to implement realtime emotion monitoring.
 
 14. Release the video capture and close all windows using `cap.release()` and `cv2.destroyAllWindows()`.
 
-![image](https://github.com/manish-9245/Facial-Emotion-Recognition-using-OpenCV-and-Deepface/assets/69393822/6f05346b-7087-4ad6-953a-1b0fc7215513)
+![image](https://github.com/manish-9245/Facial-Emotion-Recognition-using-OpenCV-and-Deepface/assets/69393822/57c41270-7575-4bc7-ae7a-99d67239a5ab)
+
+
 
