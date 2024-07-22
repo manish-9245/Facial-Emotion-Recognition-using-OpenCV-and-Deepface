@@ -1,3 +1,6 @@
-opencv-python
+opencv-python-headless
+streamlit-webrtc
+streamlit
+tf-keras
 deepface
-tf_keras
+av
